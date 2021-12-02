@@ -1,4 +1,35 @@
 h1{
-    color: aqua;
-    color: 20;
+    color:#FBFCFC;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 80px;
+    font-family: "Helvetica", sans-serif;
+    margin-bottom: 100px;
 }
+
+
+#intro{
+    margin-left: 20px;
+    font-size: 24px;
+    color: rgb(33, 33, 34);
+    font-family: "Tahoma",sans-serif;
+    font-weight: bold;
+    
+}
+
+a{
+    color:rgb(25, 131, 51);
+    text-decoration: none;
+}
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('.//src/indexWallPaper.jpg');
+    height: 100%;
+}
+
+
+

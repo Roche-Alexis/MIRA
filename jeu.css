@@ -1,4 +1,102 @@
 canvas { 
-    background: rgb(201, 184, 184); display: block; margin: 0 auto; 
+    background: rgba(90, 135, 177, 0.65); 
+    display: block;
+    margin: 3px;
 }
 
+canvas:hover{
+    background: rgba(9, 115, 214, 0.65);
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('.//src/indexWallPaper.jpg');
+    height: 100%;
+}
+
+.conteneur{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.gauche{
+    background: rgba(150, 165, 179, 0.65); display: block; margin: 2 auto;
+}
+
+.gauche:hover{
+    cursor: pointer;
+    background: rgba(150, 165, 179, 0.89);
+}
+
+.droite{
+    background: rgba(150, 165, 179, 0.65); display: block;
+ }
+ #test{
+    height: 10%;
+    margin-top: 1%;
+    margin-left: 45%;
+    background: rgba(182, 185, 187, 0.65);
+    float:left;
+ }
+
+ #bottle{
+    text-align: center;
+    margin: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: fill;
+    background: rgba(37, 214, 191, 0.65);
+ }
+ #bottle:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2e2e3f;
+ }
+
+ #carton{
+    text-align: center;
+    margin: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: fill;
+    background: rgba(214, 182, 37, 0.65);
+ }
+
+ #carton:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2e2e3f;
+ }
+
+ #plastique{
+    text-align: center;
+    margin: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: fill;
+    background: rgba(19, 110, 185, 0.65);
+ }
+
+ #plastique:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2e2e3f;
+ }
+
+ @keyframes rotation {
+     from{
+        transform: rotate(0);
+     }
+     to {
+        transform: rotate(90);
+     }
+ }
+
+ #LOGO{
+    text-align: center;
+    transform: rotate(365deg);
+    animation: rotation 3s infinite linear;
+ }
